@@ -10,6 +10,8 @@ public class TimelineTrigger : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             timeline.Play();
+
+            gameObject.SetActive(false);
         }
     }
 }
