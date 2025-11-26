@@ -10537,6 +10537,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 431685093}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &450588759 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2155358169863565898, guid: e0a781c065b735b41a847089a684852f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2034781540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &451831611
 GameObject:
   m_ObjectHideFlags: 0
@@ -31721,6 +31727,7 @@ GameObject:
   - component: {fileID: 1345383938}
   - component: {fileID: 1345383937}
   - component: {fileID: 1345383936}
+  - component: {fileID: 1345383940}
   m_Layer: 0
   m_Name: TriggerZone
   m_TagString: Untagged
@@ -31817,6 +31824,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1345383940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345383935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 059f4078dcef8ef40ad53b508883cd91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeline1: {fileID: 168692650}
+  player: {fileID: 450588759}
 --- !u!1 &1347820336
 GameObject:
   m_ObjectHideFlags: 0
@@ -50890,6 +50911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155358169863565898, guid: e0a781c065b735b41a847089a684852f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
