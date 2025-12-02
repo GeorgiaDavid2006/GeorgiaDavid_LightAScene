@@ -12242,7 +12242,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 990390268}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e6b070634da492a48a576974248d64b9,
         type: 3}
@@ -12292,7 +12292,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e6b070634da492a48a576974248d64b9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e6b070634da492a48a576974248d64b9,
         type: 3}
@@ -12457,6 +12457,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &510160322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e6b070634da492a48a576974248d64b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 510160318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &513548126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24172,6 +24178,7 @@ Transform:
   - {fileID: 1126675035}
   - {fileID: 1183925879}
   - {fileID: 806514627}
+  - {fileID: 510160322}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995669161
@@ -57266,4 +57273,3 @@ SceneRoots:
   - {fileID: 1891399445}
   - {fileID: 1058546847}
   - {fileID: 497336377}
-  - {fileID: 510160318}
